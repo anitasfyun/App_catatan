@@ -1,5 +1,5 @@
 import "./App.css";
-function C1(props) {
+function Catatan1(props) {
   return (
     <>
       <div class="card border-warning mb-3 shadow p-3 mb-5 bg-body-tertiary rounded">
@@ -18,7 +18,7 @@ function C1(props) {
   );
 }
 
-function C2(props) {
+function Catatan2(props) {
   return (
     <>
       <div class="card border-warning mb-3 shadow p-3 mb-5 bg-body-tertiary rounded">
@@ -37,7 +37,7 @@ function C2(props) {
   );
 }
 
-function C3(props) {
+function Catatan3(props) {
   return (
     <>
       <div class="card border-warning mb-3 shadow p-3 mb-5 bg-body-tertiary rounded">
@@ -62,9 +62,9 @@ function App() {
     <div className="App" class="App-header ">
       <h1 class="text-center fs-1 fw-bold">Todo List {name}</h1>
       <div class="layout">
-        <C1 footer="05/11/2023" />
-        <C2 footer="05/11/2023" />
-        <C3 footer="05/11/2023" />
+        <Catatan1 footer="05/11/2023" />
+        <Catatan2 footer="05/11/2023" />
+        <Catatan3 footer="05/11/2023" />
       </div>
     </div>
   );
