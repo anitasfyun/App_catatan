@@ -3,7 +3,7 @@ import "../App.css";
 
 import PropTypes from "prop-types";
 
-function TodoRow({ no, title, createdAt, children, id, index, onDelete }) {
+function NoteCard({ no, title, createdAt, children, id, index, onDelete }) {
   return (
     <div class="">
       <div className="text-start fs-4 mb-2 bg-secondary text-light rounded">
@@ -23,7 +23,7 @@ function TodoRow({ no, title, createdAt, children, id, index, onDelete }) {
   );
 }
 
-TodoRow.propTypes = {
+NoteCard.propTypes = {
   no: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   createdAt: PropTypes.string.isRequired,
@@ -33,4 +33,4 @@ TodoRow.propTypes = {
   onDelete: PropTypes.func.isRequired,
 };
 
-export { TodoRow };
+export { NoteCard };
